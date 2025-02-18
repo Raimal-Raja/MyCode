@@ -1,7 +1,8 @@
-vowel = ['a', 'e', 'o', 'u']
-word = input('Enter a word or sentence: ')
+vowels = ['a', 'e', 'i', 'o','u']
+word = input('Enter a word: ')
 count = 0
-for i in range(len(word)):
-   pass
-    
-print(count)
+for i in range(len(vowels)):
+    for letter in word:
+        if i == letter:
+            count +=1
+            
