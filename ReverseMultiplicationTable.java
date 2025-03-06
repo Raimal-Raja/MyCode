@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class ReverseMultiplicationTable {
     public static void main(String[] arg) {
         Scanner in = new Scanner(System.in);
-        int[] table1 = new int[10];
-        int[] table2 = new int[10];
+        int [] table1 = new int[10];
+        int [] table2 = new int[10];
 
         System.out.print("Enter a number, you want table of: ");
         int number = in.nextInt();
