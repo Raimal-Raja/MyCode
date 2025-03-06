@@ -7,7 +7,7 @@ public class ReverseMultiplicationTable {
         int[] table2 = new int[10];
 
         System.out.print("Enter a number, you want table of: ");
-        // int number = in.nextInt();
+        int number = in.nextInt();
 
         System.out.println("Multiplication table of " + number + " and its reverse:");
 
