@@ -5,7 +5,6 @@ public class ReverseMultiplicationTable {
         Scanner in = new Scanner(System.in);
         int[] table1 = new int[10];
         int[] table2 = new int[10];
-        int[] temp;
 
         System.out.print("Enter a number, you want table of: ");
         int number = in.nextInt();
