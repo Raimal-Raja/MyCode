@@ -6,7 +6,6 @@ public class ReverseMultiplicationTable {
         int[] table1 = new int[10];
         int[] table2 = new int[10];
         int[] temp;
-        int value =0;
 
         System.out.print("Enter a number, you want table of: ");
         int number = in.nextInt();
