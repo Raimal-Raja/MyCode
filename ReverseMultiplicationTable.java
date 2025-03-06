@@ -22,6 +22,6 @@ public class ReverseMultiplicationTable {
             System.out.println(number + " x " + (10-i) + " = " + table2[i]);
         }
 
-        in.close();
     }
+    in.close();
 }
